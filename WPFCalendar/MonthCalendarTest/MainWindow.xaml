@@ -1,0 +1,8 @@
+﻿<Window x:Class="MonthCalendarTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="clr-namespace:MonthCalendar;assembly=MonthCalendar"
+        Title="MainWindow" Height="350" Width="525">
+
+        <mc:MonthCalendarControl x:Name="AptCalendar" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" OnMonthChanged="MonthChanged" OnDayDoubleClicked="DayDoubleClicked" OnAppointmentDoubleClicked="AppointmentDoubleClicked"/>
+</Window>
