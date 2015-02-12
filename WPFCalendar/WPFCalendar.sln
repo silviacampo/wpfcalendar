@@ -5,13 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCalendar", "WPFCalendar.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF project Test", "MonthCalendarTest\WPF project Test.csproj", "{C3751CF1-2A64-4F92-A3D8-B35892409D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTest", "..\WindowsFormsTest\WindowsFormsTest.csproj", "{2CC58003-A4CA-473E-8620-059BB7AED501}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBrowserApplication Test", "..\WpfBrowserApplication Test\WpfBrowserApplication Test.csproj", "{36982CDD-9164-4296-A71F-ACDF3A8E5662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTest", "..\WindowsFormsTest\WindowsFormsTest.csproj", "{C83A649A-49E6-45E9-B67D-B411C076B900}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
+		SccNumberOfProjects = 5
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs27
 		SccLocalPath0 = .
@@ -23,6 +23,9 @@ Global
 		SccProjectUniqueName3 = ..\\WpfBrowserApplication\u0020Test\\WpfBrowserApplication\u0020Test.csproj
 		SccProjectName3 = ../WpfBrowserApplication\u0020Test
 		SccLocalPath3 = ..\\WpfBrowserApplication\u0020Test
+		SccProjectUniqueName4 = ..\\WindowsFormsTest\\WindowsFormsTest.csproj
+		SccProjectName4 = ../WindowsFormsTest
+		SccLocalPath4 = ..\\WindowsFormsTest
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,16 +56,6 @@ Global
 		{C3751CF1-2A64-4F92-A3D8-B35892409D93}.Release|Mixed Platforms.Build.0 = Release|x86
 		{C3751CF1-2A64-4F92-A3D8-B35892409D93}.Release|x86.ActiveCfg = Release|x86
 		{C3751CF1-2A64-4F92-A3D8-B35892409D93}.Release|x86.Build.0 = Release|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Debug|x86.ActiveCfg = Debug|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Debug|x86.Build.0 = Debug|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Release|Any CPU.ActiveCfg = Release|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Release|Mixed Platforms.Build.0 = Release|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Release|x86.ActiveCfg = Release|x86
-		{2CC58003-A4CA-473E-8620-059BB7AED501}.Release|x86.Build.0 = Release|x86
 		{36982CDD-9164-4296-A71F-ACDF3A8E5662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36982CDD-9164-4296-A71F-ACDF3A8E5662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36982CDD-9164-4296-A71F-ACDF3A8E5662}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -73,6 +66,16 @@ Global
 		{36982CDD-9164-4296-A71F-ACDF3A8E5662}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{36982CDD-9164-4296-A71F-ACDF3A8E5662}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{36982CDD-9164-4296-A71F-ACDF3A8E5662}.Release|x86.ActiveCfg = Release|Any CPU
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Debug|x86.ActiveCfg = Debug|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Debug|x86.Build.0 = Debug|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Release|Any CPU.ActiveCfg = Release|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Release|x86.ActiveCfg = Release|x86
+		{C83A649A-49E6-45E9-B67D-B411C076B900}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
